@@ -10,9 +10,9 @@ debug = true
 name = "day_1"
 path = "src/day_1/main.rs"
 
-# [[bin]]
-# name = "day_2"
-# path = "src/day_2/main.rs"
+[[bin]]
+name = "day_2"
+path = "src/day_2/main.rs"
 
 # [[bin]]
 # name = "day_3"
@@ -73,3 +73,4 @@ path = "src/day_1/main.rs"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+itertools = "0.10.3"
