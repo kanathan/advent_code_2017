@@ -28,7 +28,7 @@ fn get_sum(input: &Vec<i32>, step: usize) -> i32 {
 
 #[cfg(test)]
 mod test {
-    use super::*;
+    //use super::*;
 
     #[test]
     fn test_1() {
