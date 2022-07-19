@@ -26,9 +26,9 @@ path = "src/day_5/main.rs"
 name = "day_6"
 path = "src/day_6/main.rs"
 
-# [[bin]]
-# name = "day_7"
-# path = "src/day_7/main.rs"
+[[bin]]
+name = "day_7"
+path = "src/day_7/main.rs"
 
 # [[bin]]
 # name = "day_8"
@@ -70,3 +70,4 @@ path = "src/day_6/main.rs"
 
 [dependencies]
 itertools = "0.10.3"
+regex = "1.6.0"
