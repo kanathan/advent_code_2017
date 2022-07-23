@@ -68,7 +68,7 @@ fn get_severity(mut firewall: Vec<Option<Layer>>) -> usize {
 }
 
 
-fn get_passage_time(firewall: &Vec<Option<Layer>>) -> usize {
+fn get_passage_time(firewall: &[Option<Layer>]) -> usize {
     'outer: for start_time in 0.. {
         for (range, l) in firewall.iter().enumerate() {
             if let Some(layer) = l {

@@ -54,9 +54,9 @@ path = "src/day_12/main.rs"
 name = "day_13"
 path = "src/day_13/main.rs"
 
-# [[bin]]
-# name = "day_14"
-# path = "src/day_14/main.rs"
+[[bin]]
+name = "day_14"
+path = "src/day_14/main.rs"
 
 # [[bin]]
 # name = "day_15"
@@ -65,6 +65,42 @@ path = "src/day_13/main.rs"
 # [[bin]]
 # name = "day_16"
 # path = "src/day_16/main.rs"
+
+# [[bin]]
+# name = "day_17"
+# path = "src/day_17/main.rs"
+
+# [[bin]]
+# name = "day_18"
+# path = "src/day_18/main.rs"
+
+# [[bin]]
+# name = "day_19"
+# path = "src/day_19/main.rs"
+
+# [[bin]]
+# name = "day_20"
+# path = "src/day_20/main.rs"
+
+# [[bin]]
+# name = "day_21"
+# path = "src/day_21/main.rs"
+
+# [[bin]]
+# name = "day_22"
+# path = "src/day_22/main.rs"
+
+# [[bin]]
+# name = "day_23"
+# path = "src/day_23/main.rs"
+
+# [[bin]]
+# name = "day_24"
+# path = "src/day_24/main.rs"
+
+# [[bin]]
+# name = "day_25"
+# path = "src/day_25/main.rs"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
