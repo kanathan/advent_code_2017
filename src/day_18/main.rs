@@ -135,7 +135,7 @@ fn run(instrs: &[Instructions], prog: &mut Program, tx: &mut VecDeque<isize>, rx
                     break;
                 }
             },
-            Instructions::Rcv_d(val) => unimplemented!(),
+            Instructions::Rcv_d(_) => unimplemented!(),
             Instructions::Jgz(r1, r2) => if *prog.reg.entry(r1).or_default() > 0 {
                 let val = *prog.reg.entry(r2).or_default();
                 prog.pc += val - 1;
